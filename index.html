@@ -9,7 +9,7 @@
   <title>Frontend Mentor | Order summary card</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="/ordercard.css">
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -21,29 +21,20 @@
   .attribution a { color: hsl(228, 45%, 44%); }*/
 
   @media screen and (max-width: 1000px) {
+   body {
+     background-image: url(/images/pattern-background-mobile.svg);
+   }
+   
     h1 {
-      margin-top: 1rem;
+      font-size: 1.5em;
     }
 
     #description {
-      line-height: 2rem;
-      margin: .5rem 1.5rem 2rem 1.5rem;
+      line-height: 1.75em;
     }
     
     #card {
-      width: 350px;
-    }
-
-    #plan {
-      margin: .5rem 1.5rem .5rem 1.5rem;
-    }
-
-    #payment {
-      margin-bottom: .5rem;
-    }
-
-    #cancel {
-      margin-bottom: 1rem;
+      width: 375px;
     }
 
   }
@@ -63,7 +54,7 @@
 
 <section id="plan">
 
-<img src="images/icon-music.svg" id="icon-music">  
+<img src="/images/icon-music.svg" id="icon-music">  
 
 
 <div id="plan-info">
@@ -79,12 +70,13 @@
 <button id="cancel">Cancel Order</button>
 </div>
 
-</div>
 </main>
 
-  <div class="attribution">
+<div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://www.clewisdev.com">C Lewis</a>.
-  </div>
+</div>
+
+
 </body>
 </html>
