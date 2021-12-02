@@ -36,14 +36,14 @@ h1 {
     color: gray;
     font-size: 1em;
     line-height: 1.75rem;
-    margin: 1rem 3rem 2rem 3rem;
+    margin: 1rem 3rem;
     text-align: center;
 }
 
 #plan {
     background-color: #f8f9fe;
-    margin: 1rem 3rem 2rem 3rem;
-    padding: 1.5rem;
+    margin: 1rem 3rem;
+    padding: 1rem;
     border-radius: 1rem;
     display: flex;
     align-items: center;
@@ -82,7 +82,7 @@ h2, #plan-cost {
     font-size: 1em;
     background-color: #3929e0;
     color: white;
-    font-weight: 900;
+    font-weight: 700;
     width: 80%;
     padding: 1.25rem;
     margin-top: 1rem;
@@ -100,7 +100,7 @@ h2, #plan-cost {
 #cancel {
     font-family: 'Open Sans', sans-serif;
     font-size: 1em;
-    font-weight: 900;
+    font-weight: 700;
     color: gray;
    background-color: transparent;
     width: 80%;
