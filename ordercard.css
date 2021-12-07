@@ -42,7 +42,7 @@ h1 {
 
 #plan {
     background-color: #f8f9fe;
-    margin: 1rem 3rem;
+    margin: 1.5rem 2rem;
     padding: 1rem;
     border-radius: 1rem;
     display: flex;
@@ -83,10 +83,9 @@ h2, #plan-cost {
     background-color: #3929e0;
     color: white;
     font-weight: 700;
-    width: 80%;
+    width: 85%;
     padding: 1.25rem;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin: .5rem 1rem;
     border-radius: 1rem;
     border: none;
     box-shadow: 0 1rem 1rem .5rem #e9e6fd;
@@ -103,9 +102,9 @@ h2, #plan-cost {
     font-weight: 700;
     color: gray;
    background-color: transparent;
-    width: 80%;
+    width: 85%;
     padding: 1.25rem;
-    margin-bottom: 2rem;
+    margin: .5rem 1rem 1rem;
     border-radius: 1rem;
     border: none;
 }    
