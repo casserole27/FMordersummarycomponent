@@ -1,3 +1,12 @@
+/*
+Frontend Mentor
+Order Summary Card Component
+C Lewis
+clewisdev.com
+November 2021
+*/
+
+
 body {
     font-family: 'Red Hat Display', sans-serif;
     text-align: center;
@@ -6,6 +15,8 @@ body {
     background-size: cover;
     background-color: #d6e1ff92;
 }
+
+/*------ CARD STYLING ------*/
 
 #illustration-hero {
     max-width: 100%;
@@ -39,6 +50,8 @@ h1 {
     margin: 1rem 3rem;
     text-align: center;
 }
+
+/*------ PLAN ELEMENTS STYLING------*/
 
 #plan {
     background-color: #f8f9fe;
@@ -76,6 +89,8 @@ h2, #plan-cost {
 #plan-cost {
     color: gray;
 }
+
+/*------ BUTTONS ------ */
 
 #payment {
     font-family: 'Open Sans', sans-serif;
